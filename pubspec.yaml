@@ -1,0 +1,25 @@
+name: audio_cleaner
+description: Audio Cleaner - remove noise and silence from audio
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  file_picker: ^8.0.0
+  path_provider: ^2.1.4
+  ffmpeg_kit_flutter_new: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
